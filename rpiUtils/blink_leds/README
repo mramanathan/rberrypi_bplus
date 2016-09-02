@@ -1,0 +1,16 @@
+CAUTION !!!!!!!!!!! CAUTION !!!!!!
+
+############
+No guarantee is provided if you do NOT take care while wiring the Pi with the
+breadboard. Exercise due diligence before powering the pi with the circuit assembled.
+############
+
+Examples are using either one of the following sketches to construct the circuit.
+
+gpio_bcm_board : ../model_bplus_bcm_board_sketch.png
+gpio_bcm       : ../model_bplus_gpio_pinout_sketch.png
+
+In the example, refer to the comment "gpio_bcm_board" or "gpio_bcm" and 
+accordingly place the wires to connect the components on the breadboard and 
+Raspberry Pi Model B+ Rev1.2
+

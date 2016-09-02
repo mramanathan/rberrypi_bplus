@@ -3,6 +3,9 @@
 from gpiozero import LED
 import time
 
+## pinout reference:
+# gpio_bcm
+
 # code for blinking one LED
 led = LED(17)
 

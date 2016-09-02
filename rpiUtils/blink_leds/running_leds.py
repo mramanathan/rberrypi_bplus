@@ -3,6 +3,9 @@
 import RPi.GPIO as gpio
 import time
 
+## pinout reference
+# gpio_bcm_board
+
 ## generic settings for Pi Modem B+ Rev1.2
 
 gpio.setmode(gpio.BOARD)

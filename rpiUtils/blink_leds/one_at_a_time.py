@@ -7,10 +7,11 @@ import time
 # gpio_bcm
 
 # code for blinking one LED
+# GPIO17 maps to pin # 11 in Model B+
 led = LED(17)
 
 
-def blink():
+def led_on_off():
 	""" Pull pin HIGH and light up LED.
 
 	Then sleep for 1mSec and pull pin
@@ -33,8 +34,7 @@ def main():
 	"""
 
 	for inc in range(10,15):
-		blink()
-
+		led_on_off()
 
 
 
